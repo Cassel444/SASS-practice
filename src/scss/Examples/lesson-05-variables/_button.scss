@@ -1,0 +1,15 @@
+@use "sass:math";
+
+@use "btn-scema" as vars with (
+    $font-size: 10px,// можна змінити
+    $btn-color: black,// значення змінних
+    $btn-bgcolor: lightblue// завдяки  синтаксису !default
+);
+
+.small-btn {
+    font-size: vars.$font-size;
+    color: vars.$btn-color;
+    background-color: vars.$btn-bgcolor;
+}
+
+@debug math.$pi;

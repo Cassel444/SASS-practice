@@ -1,0 +1,21 @@
+// види написання змінних
+// $color-primary-text: #8888; //kebab case
+// $color-blue-text: lightblue;
+
+// $colorPrimaryText: #8888; //camel case
+// $colorBlueText: lightblue;
+
+// $color_primary_text: #8888; //snake case
+// $color_blue_text: lightblue;
+
+$font-size: 16px;
+
+.title {
+    font-size: $font-size;
+}
+
+$font-size: 10px;
+
+.subtitle {
+    font-size: $font-size; 
+}

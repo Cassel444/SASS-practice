@@ -1,0 +1,4 @@
+@forward "mixin";
+@forward "variables";
+// @forward "variables" hide $active; всі змінні файлу variables.scss будуть доступні, приховати лише змінну $active
+// @forward "variables" show $active; всі змінні файлу variables.scss будуть приховані, показати лише змінну $active

@@ -1,29 +1,34 @@
-@use "../base/fonts";
+// .badge {
+//   display: inline-block;
+//   max-width: 96px;
+//   padding: 4px 8px;
 
-.badges {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+//   font-size: 14px;
+//   font-weight: 500;
+//   line-height: 20px;
+//   letter-spacing: 0.07px;
+//   text-align: center;
+//   color: #ffffff;
 
-  &-item {
-  }
+//   border-radius: 20px;
+// }
 
-  &-link {
-    display: block;
-    border-radius: 5rem;
-    color: var(--main-text-color);
-    text-decoration: none;
-    background: var(--brand-color);
-    padding: 0.8rem 1.8rem;
-    transition: 0.2s ease;
+// @use "../abstracts/mixin";
+// @use "../abstracts/variables" as v;
+@use "../abstracts" as ai;
 
-    &:hover {
-      background: var(--brand-light-color);
-    }
-  }
+
+.badge {
+  @include ai.badge-base();
+  
+  color: ai.$badge-cl;
 }
-.no-link {
-  pointer-events: none;
+.badge-completed {
+  background-color: ai.$completed;
+}
+.badge-ended {
+  background-color: ai.$ended;
+}
+.badge-active {
+  background-color: ai.$active;
 }
