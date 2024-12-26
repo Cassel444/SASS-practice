@@ -1,3 +1,11 @@
+// @use "Design-system/utils";
+@use "Design-system/utils/test";
+
+:root {
+  font-family: sans-serif;
+}
+
+
 // @use "Pattern-7-1/base";
 // @use "Pattern-7-1/components";
 
@@ -28,3 +36,22 @@
 // @use "Examples/lesson-07-math/math";
 // @use "Examples/lesson-07-math/task";
 // @use "Examples/lesson-07-math/badge";
+
+//lesson-09-extend
+// @use "components/alert";
+// @use "Examples/lesson-09-extend/extend";
+
+//lesson-10-mixins
+// @use "components/button";
+// @use "Examples/lesson-10-mixin/mixins";
+
+//lesson-11-if-each-for
+// @use "Examples/lesson-11-if-each-for/each";
+// @use "Examples/lesson-11-if-each-for/if";
+// @use "Examples/lesson-11-if-each-for/for";
+
+//lesson-12-function
+// @use "Examples/lesson-12-function/examples";
+// @use "Examples/lesson-12-function/functions";
+
+
