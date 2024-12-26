@@ -1,1 +1,20 @@
+:root {
+  font-family: sans-serif;
+}
+
 /* END */
+
+@media only screen and (min-width: 1200px) {
+  .box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 767.98px) and (min-device-pixel-ratio: 2), only screen and (max-width: 767.98px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 767.98px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 767.98px) and (min-resolution: 192dpi), only screen and (max-width: 767.98px) and (min-resolution: 2dppx) {
+  .poster {
+    background-image: url("../images/image_@2x.jpg");
+  }
+}
